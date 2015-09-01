@@ -7,8 +7,8 @@ http:
   addr: 0.0.0.0:5000
 auth:
   token:
-    realm: http://melange.in.da.house:3000/v2/token
-    service: melange.in.da.house:5000
+    realm: http://private-registry.com:3000/v2/token
+    service: private-registry.com:5000
     issuer: portus.test.lan
     rootcertbundle: /registry/portus.crt
 notifications:
